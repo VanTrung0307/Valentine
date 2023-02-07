@@ -1678,7 +1678,7 @@ button:active {
             text-align: center;
             background-size: contain;
             background-repeat: no-repeat;
-
+            margin-top: 100px;
         }
 
         .popup.s--active .popup__content {
