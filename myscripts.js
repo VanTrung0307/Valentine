@@ -93,7 +93,7 @@ function comeOutRoll() {
       $popupsCont.classList.add('s--popup-active')
       $popup.classList.add('s--active')
       document.querySelector('#txt-noiDung').innerHTML =
-        'Chỉ muốn đánh em ngất. <br/> Vì anh yêu em xĩu 🧡'
+        'Chỉ muốn đánh Lam ngất. <br/> Vì Trung yêu Lam xĩu 🧡'
     }, 1000)
   }
 
@@ -102,7 +102,7 @@ function comeOutRoll() {
       $popupsCont.classList.add('s--popup-active')
       $popup.classList.add('s--active')
       document.querySelector('#txt-noiDung').innerHTML =
-        'Muốn bình yên thì lên chùa cầu phúc. <br/> Muốn Valentine hạnh phúc thì đến bên anh.'
+        'Muốn bình yên thì lên chùa cầu phúc. <br/> Muốn Valentine hạnh phúc thì đến bên Trung.'
     }, 1000)
   }
 
@@ -119,7 +119,7 @@ function comeOutRoll() {
       $popupsCont.classList.add('s--popup-active')
       $popup.classList.add('s--active')
       document.querySelector('#txt-noiDung').innerHTML =
-        'Dự báo thời tiết nói Valentine này em phải ở cạnh anh'
+        'Dự báo thời tiết nói Valentine này Lam phải ở cạnh Trung'
     }, 1000)
   }
 
@@ -128,7 +128,7 @@ function comeOutRoll() {
       $popupsCont.classList.add('s--popup-active')
       $popup.classList.add('s--active')
       document.querySelector('#txt-noiDung').innerHTML =
-        'Dự báo thời tiết Valentine này nắng hanh <br/> Em nghe cho rõ Valentine này phải có anh '
+        'Dự báo thời tiết Valentine này nắng hanh <br/> Lam nghe cho rõ Valentine này phải có Trung '
     }, 1000)
   }
 
@@ -137,7 +137,7 @@ function comeOutRoll() {
       $popupsCont.classList.add('s--popup-active')
       $popup.classList.add('s--active')
       document.querySelector('#txt-noiDung').innerHTML =
-        'Gọi tình yêu của anh là biển cả <br/> Vì nó luôn bao la'
+        'Gọi tình yêu của Trung là biển cả <br/> Vì nó luôn bao la'
     }, 1000)
   }
 
