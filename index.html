@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/side6.png">
+    <title>Valentine</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="dice-board">
+      <div class="container-dice">
+        <div id="dice1" class="dice dice-one">
+          <div id="dice-one-side-one" class="side one">
+            <img width="100%" src="images/side1.png" />
+          </div>
+          <div id="dice-one-side-two" class="side two">
+            <div class="divot two-1">
+              <img width="100%" src="images/side2.png" />
+            </div>
+            <div class="divot two-2">
+              <img width="100%" src="images/side2.png" />
+            </div>
+          </div>
+          <div id="dice-one-side-three" class="side three">
+            <div class="divot three-1">
+              <img width="100%" src="images/side3.png" />
+            </div>
+            <div class="divot three-2">
+              <img width="100%" src="images/side3.png" />
+            </div>
+            <div class="divot three-3">
+              <img width="100%" src="images/side3.png" />
+            </div>
+          </div>
+          <div id="dice-one-side-four" class="side four">
+            <div class="divot four-1">
+              <img width="100%" src="images/side4.png" />
+            </div>
+            <div class="divot four-2">
+              <img width="100%" src="images/side4.png" />
+            </div>
+            <div class="divot four-3">
+              <img width="100%" src="images/side4.png" />
+            </div>
+            <div class="divot four-4">
+              <img width="100%" src="images/side4.png" />
+            </div>
+          </div>
+          <div id="dice-one-side-five" class="side five">
+            <div class="divot five-1">
+              <img width="100%" src="images/side5.png" />
+            </div>
+            <div class="divot five-2">
+              <img width="100%" src="images/side5.png" />
+            </div>
+            <div class="divot five-3">
+              <img width="100%" src="images/side5.png" />
+            </div>
+            <div class="divot five-4">
+              <img width="100%" src="images/side5.png" />
+            </div>
+            <div class="divot five-5">
+              <img width="100%" src="images/side5.png" />
+            </div>
+          </div>
+          <div id="dice-one-side-six" class="side six">
+            <div class="divot six-1">
+              <img width="100%" src="images/side6.png" />
+            </div>
+            <div class="divot six-2">
+              <img width="100%" src="images/side6.png" />
+            </div>
+            <div class="divot six-3">
+              <img width="100%" src="images/side6.png" />
+            </div>
+            <div class="divot six-4">
+              <img width="100%" src="images/side6.png" />
+            </div>
+            <div class="divot six-5">
+              <img width="100%" src="images/side6.png" />
+            </div>
+            <div class="divot six-6">
+              <img width="100%" src="images/side6.png" />
+            </div>
+          </div>
+        </div>
+
+        <button id="comeOutButton" class="roll-button">ROLL ME NOW</button>
+      </div>
+      <!-- END container-dice -->
+    </div>
+    <!-- END dice-board -->
+
+    <div class="popups-cont">
+      <div class="popups-cont__overlay"></div>
+      <div class="popup">
+        <div class="popup__pieces"></div>
+        <div class="popup__content">
+          <div class="popup__close"></div>
+          <h3 class="popup__heading">Happy Valentine's Day!</h3>
+          <p class="popup__text" id="txt-noiDung"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="myscripts.js"></script>
+  </body>
+</html>
